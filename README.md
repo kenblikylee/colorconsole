@@ -1,0 +1,2 @@
+# colorconsole
+colorful console.log!
