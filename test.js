@@ -27,3 +27,5 @@ colorconsole.log('hello world!', null, 100)
 colorconsole.log('hello world!', 200, 300, 'blink', 'I\'m %s!', 'ken')
 
 console.log(colorconsole.text('hello world!', 100, null, 'bold'), 'I\'m ken!')
+
+colorconsole.plate()

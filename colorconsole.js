@@ -91,9 +91,41 @@ var colorconsole = (function (logfuc) {
         args.push(text)
         return logfuc.apply(null, args)
     }
+    function colorplate () {
+        function fixwstr(num) {
+            num = num + ''
+            len = num.length
+            if (len == 1) {
+                num = '  ' + num
+            }
+            if (len == 2) {
+                num = ' ' + num
+            }
+            return ' ' + num + ' '
+        }
+        
+        for (var i = 0; i < 16; i++) {
+            var line = ''
+            for (var j = 0; j < 16; j++) {
+                var color = 16 * i + j
+                line += colortext(fixwstr(color), color)
+            }
+            logfuc(line)
+        }
+        
+        for (var i = 0; i < 16; i++) {
+            var line = ''
+            for (var j = 0; j < 16; j++) {
+                var color = 16 * i + j
+                line += colortext(fixwstr(color), 'white', color)
+            }
+            logfuc(line)
+        }        
+    }
     return {
         text: colortext,
-        log: colorlog
+        log: colorlog,
+        plate: colorplate
     }
 })(console.log)
 
