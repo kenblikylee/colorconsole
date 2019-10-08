@@ -1,5 +1,5 @@
 {
-  "name": "colorconsole",
+  "name": "@ken/colorconsole",
   "version": "0.1.1",
   "description": "colorful console.log!",
   "main": "colorconsole.js",
