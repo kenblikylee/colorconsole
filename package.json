@@ -1,0 +1,22 @@
+{
+  "name": "colorconsole",
+  "version": "0.0.0",
+  "description": "colorful console.log!",
+  "main": "colorconsole.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenblikylee/colorconsole.git"
+  },
+  "keywords": [
+    "colorconsole"
+  ],
+  "author": "ken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenblikylee/colorconsole/issues"
+  },
+  "homepage": "https://github.com/kenblikylee/colorconsole#readme"
+}
