@@ -10,7 +10,7 @@ colorful console.log!
 ### installation
 
 ``` sh
-npm install --save-dev @ken/colorconsole
+npm install --save-dev @kenworks/colorconsole
 ```
 
 ### usage
@@ -43,7 +43,7 @@ or, you can use integer which from 0 to 255.
 save the following code to `test.js`.
 
 ``` js
-var colorconsole = require('@ken/colorconsole')
+var colorconsole = require('@kenworks/colorconsole')
 
 colorconsole.log('hello world!', 'red', null, 'bold')
 
@@ -87,7 +87,7 @@ you can see like this:
 #### example 2: display color plate
 
 ``` js
-var colorconsole = require('@ken/colorconsole')
+var colorconsole = require('@kenworks/colorconsole')
 
 colorconsole.plate()
 ```
