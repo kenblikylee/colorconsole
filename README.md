@@ -5,17 +5,15 @@
 
 colorful console.log!
 
-## quick start
-
-### installation
+## installation
 
 ``` sh
 npm install --save-dev @kenworks/colorconsole
 ```
 
-### usage
+## usage
 
-#### colorconsole.log(text, color, bgcolor, effect)
+### colorconsole.log(text, color, bgcolor, effect)
 
 print colorful text in console.
 
@@ -24,21 +22,21 @@ print colorful text in console.
 - bgcolor: string or int, color of background.
 - effect: string, it can be 'bold', 'underline', 'blink', 'reverse', 'hide'.
 
-#### colorconsole.text(text, color, bgcolor, effect)
+### colorconsole.text(text, color, bgcolor, effect)
 
 return colorful text with ansi-escape sequences. which `colorconsole.log` invokes and has the same parameters.
 
-#### colorconsole.plate()
+### colorconsole.plate()
 
 convenience to display color plate in console.
 
-#### color and bgcolor
+### color and bgcolor
 
 both can be these 8 colors (when it's string): 'black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'. 
 
 or, you can use integer which from 0 to 255.
 
-#### example 1: use `colorconsole.log()` and `colorconsole.text()`
+### example 1: use `colorconsole.log()` and `colorconsole.text()`
 
 save the following code to `test.js`.
 
@@ -84,7 +82,7 @@ you can see like this:
 
 ![](http://cdn.kenblog.top/colorconsole_log.gif)
 
-#### example 2: display color plate
+### example 2: display color plate
 
 ``` js
 var colorconsole = require('@kenworks/colorconsole')
